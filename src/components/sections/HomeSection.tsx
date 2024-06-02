@@ -3,12 +3,12 @@ import React from "react";
 import Image from "next/image";
 import { MdNavigateNext } from "react-icons/md";
 
-const HomeMobile = () => {
+const HomeSection = () => {
   return (
     <>
-      <section className="flex w-screen h-screen border-2 bg-gradient-to-t from-firstcoloralt to-firstcolormedium border-blue-400 justify-center pt-10 gap-8">
-        <div className="max-md:w-80 max-md:h-96 flex items-center md:items-start flex-row-reverse max-md:flex-col gap-10">
-          <div className="flex flex-col justify-center items-center gap-10">
+      <section className="flex w-screen max-md bg-gradient-to-t from-firstcoloralt to-firstcolormedium justify-center pt-10 gap-8 pb-24">
+        <div className="container max-md:w-80 flex items-center justify-center lg:items-start flex-row-reverse max-lg:flex-col gap-10 lg:gap-24">
+          <div className="flex flex-col justify-center max-lg:items-center gap-10 w-80 max-md:w-full md:pt-20">
             <span className="text-secondcolor text-sm">
               EXCEPTIONAL QUALITY
             </span>
@@ -26,8 +26,8 @@ const HomeMobile = () => {
                 />
               </span>
             </div>
-            <div className="flex flex-col items-center gap-8">
-              <span className="text-white font-light text-center ">
+            <div className="flex flex-col max-lg:items-center gap-8">
+              <span className="text-white font-light max-lg:text-center ">
                 Each select coffee bean reflects our commitment to Peruvian
                 coffee growers, who bring the best select coffee to your table.
               </span>
@@ -36,7 +36,7 @@ const HomeMobile = () => {
               </button>
             </div>
           </div>
-          <div className="w-80 h-[354]">
+          <div className="max-md:w-80 max-md:h-[354px] w-[450px] h-[609px] md:pb-24">
             <Image
               src="/home-coffee.svg"
               alt="coffee"
@@ -51,4 +51,4 @@ const HomeMobile = () => {
   );
 };
 
-export default HomeMobile;
+export default HomeSection;

@@ -1,7 +1,8 @@
 import BottomNavbar from "@/components/navbar/BottomNavbar";
 import MobileNavbar from "@/components/navbar/MobileNavbar";
 import Navbar from "@/components/navbar/Navbar";
-import HomeMobile from "@/components/sections/mobile/HomeMobile";
+import HomeSection from "@/components/sections/HomeSection";
+import AboutSection from "@/components/sections/AboutSection";
 
 export default function Home() {
   return (
@@ -12,7 +13,8 @@ export default function Home() {
       </div>
       <div className="w-full" />
       <main className=" w-screen h-screen">
-        <HomeMobile />
+        <HomeSection />
+        <AboutSection />
       </main>
       <BottomNavbar />
     </>
