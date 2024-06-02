@@ -4,6 +4,7 @@ import Navbar from "@/components/navbar/Navbar";
 import HomeSection from "@/components/sections/HomeSection";
 import AboutSection from "@/components/sections/AboutSection";
 import StepsSection from "@/components/sections/StepsSection";
+import TestimonialSection from "@/components/sections/TestimonialSection";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
         <HomeSection />
         <AboutSection />
        <StepsSection />
+       <TestimonialSection />
       </main>
       <BottomNavbar />
     </>
