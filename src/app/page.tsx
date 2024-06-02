@@ -3,6 +3,7 @@ import MobileNavbar from "@/components/navbar/MobileNavbar";
 import Navbar from "@/components/navbar/Navbar";
 import HomeSection from "@/components/sections/HomeSection";
 import AboutSection from "@/components/sections/AboutSection";
+import StepsSection from "@/components/sections/StepsSection";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <main className=" w-screen h-screen">
         <HomeSection />
         <AboutSection />
+       <StepsSection />
       </main>
       <BottomNavbar />
     </>

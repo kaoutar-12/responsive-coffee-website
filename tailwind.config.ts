@@ -27,6 +27,8 @@ const config: Config = {
       },
       fontFamily: {
         pacifico: ["Pacifico"],
+        poppins: ["Poppins"],
+        
       },
       boxShadow: {
         "3xl": "2px 3px 40px -15px rgba(0, 0, 0, 0.3)",

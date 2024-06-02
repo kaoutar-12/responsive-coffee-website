@@ -10,6 +10,8 @@
   src: local("Pacifico"), url(/fonts/Pacifico-Regular.ttf);
 }
 
+
+
 :root {
   --firstcoloralt: #2b1712;
   --firstcolormedium: #492d26;
@@ -50,7 +52,7 @@
 
 .poppins-regular {
   font-family: "Poppins", sans-serif;
-  font-weight: 400;
+  font-weight: 100;
   font-style: normal;
 }
 
