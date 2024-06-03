@@ -6,8 +6,8 @@ type Props = {};
 const StepsSection = (props: Props) => {
   return (
     <>
-      <section className="pb-32 rounded-t-[56px] left-0 -top-36 relative">
-        <div className="bg-white max-w-screen-3xl w-screen rounded-t-[56px] pt-10 flex items-center flex-col max-mdl:gap-16 md:flex-row-reverse">
+      <section className="pb-32 bg-white rounded-t-[56px] left-0 -top-36 relative flex justify-center">
+        <div className="w-screen max-w-screen-3xl pt-10 flex items-center flex-col max-mdl:gap-16 md:flex-row-reverse">
           <div className="flex flex-col max-sm:items-center gap-7 md:w-2/4">
             <span className="text-firstcoloralt font-pacifico md:pl-5 text-[28px]">
               Our History

@@ -5,8 +5,8 @@ import Image from "next/image";
 const AboutSection = () => {
   return (
     <>
-      <section className=" bg-firstcolormedium rounded-t-[56px] left-0 -top-16 relative">
-        <div className="pb-28 flex flex-col max-w-screen-3xl lg:flex-row gap-5 w-screen  bg-firstcolormedium rounded-t-[56px]">
+      <section className=" bg-firstcolormedium rounded-t-[56px] left-0 -top-16 relative flex justify-center">
+        <div className="pb-28 flex flex-col max-w-screen-3xl lg:flex-row gap-5 w-screen">
           <div className="flex flex-col max-mdl:items-center max-mdl:justify-center lg:pl-44 pt-10 gap-8 lg:gap-8 lg:pt-24">
             <div className="lg:pl-6 ">
               <button className=" shadow-3xl justify-center bg-firstcoloralt text-whitecolor flex flex-row items-center w-44 h-14 rounded-[64px]">

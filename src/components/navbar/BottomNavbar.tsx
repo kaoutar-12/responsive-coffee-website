@@ -22,7 +22,7 @@ const BottomNavbar = () => {
   ];
 
   return (
-    <div className="w-full fixed h-20 bottom-0 rounded-t-[56px] bg-gradient-to-t from-firstcolormedium to-firstcolorlight mobile hidden max-md:flex justify-center items-center">
+    <div className="z-50 w-full fixed h-20 bottom-0 rounded-t-[56px] bg-gradient-to-t from-firstcolormedium to-firstcolorlight mobile hidden max-md:flex justify-center items-center">
       <div className=" w-10/12 h-10/12 flex justify-center items-center gap-9">
         {links.map((link, index) => (
           <BottomNavbarItem key={index} name={link.name} icon={link.icon}  />

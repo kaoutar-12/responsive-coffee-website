@@ -17,8 +17,8 @@ export default function Home() {
       <main className=" w-screen h-screen">
         <HomeSection />
         <AboutSection />
-       <StepsSection />
-       <TestimonialSection />
+        <StepsSection />
+        <TestimonialSection />
       </main>
       <BottomNavbar />
     </>
