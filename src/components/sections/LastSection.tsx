@@ -4,8 +4,8 @@ import Image from "next/image";
 const LastSection = () => {
   return (
     <>
-      <section className=" mt-10 bg-white rounded-t-[56px] border-2 border-blue-600 left-0 -top-60  relative mdl:flex mdl:justify-center ">
-        <div className="mdl:pr-40 pb-32 max-w-screen-3xl flex border-red-400 border-2 flex-col rounded-t-[56px] justify-center items-center max-md:gap-12 md:flex-row max-mdl:pr-14 w-screen">
+      <section className=" mt-10 bg-white rounded-t-[56px] left-0 -top-60  relative mdl:flex mdl:justify-center ">
+        <div className="mdl:pr-40 xl:pl-36 xl:pr-96 pb-32 max-w-screen-3xl flex flex-col rounded-t-[56px] justify-center items-center max-md:gap-12 md:flex-row max-mdl:pr-14 w-screen">
           <div className="flex flex-col mdl:pl-48 mdl:gap-14 justify-center max-md:items-center gap-6">
             <span className="font-pacifico text-[28px] mdl:pr-32 mdl:text-[40px] mdl:text-start md:pt-12 pl-10 pr-10 pt-7 text-center ">
               Coffee is the best drink in the morning, it keeps you focused.
