@@ -6,6 +6,7 @@ import AboutSection from "@/components/sections/AboutSection";
 import StepsSection from "@/components/sections/StepsSection";
 import TestimonialSection from "@/components/sections/TestimonialSection";
 import LastSection from "@/components/sections/LastSection";
+import ContactSection from "@/components/sections/ContactSection";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
         <StepsSection />
         <TestimonialSection />
         <LastSection />
+        <ContactSection />
       </main>
       <BottomNavbar />
     </>

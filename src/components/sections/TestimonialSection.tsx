@@ -35,7 +35,7 @@ const TestimonialSection = (props: Props) => {
                 are collected for processing.
               </span>
             </div>
-            <div className=" md:pr-32 md:mb-10 mdl:m-0 mdl:pl-0 mdl:pr-0 mdl:mt-40 flex flex-col justify-center items-start self-end">
+            <div className=" md:pr-10 md:mb-10 mdl:m-0 mdl:pl-0 mdl:pr-0 mdl:mt-40 flex flex-col justify-center items-start self-end">
               <div className="w-[150px] h-[150px] rounded-full mdl:w-[260px] mdl:h-[260px] relative bg-firstcolorlight max-md:self-end">
                 <div className="flex justify-center items-center mdl:w-[105px] mdl:h-[105px] bg-secondcolor w-[75px] h-[75px] absolute -top-5 -left-4 mdl:-top-7 mdl:-left-6 mdl:border-[15px] rounded-full border-[10px] border-firstcolormedium">
                   <span className="text-3xl mdl:text-4xl text-firstcolormedium poppins-semibold">
