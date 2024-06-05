@@ -5,6 +5,7 @@ import HomeSection from "@/components/sections/HomeSection";
 import AboutSection from "@/components/sections/AboutSection";
 import StepsSection from "@/components/sections/StepsSection";
 import TestimonialSection from "@/components/sections/TestimonialSection";
+import LastSection from "@/components/sections/LastSection";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
         <AboutSection />
         <StepsSection />
         <TestimonialSection />
+        <LastSection />
       </main>
       <BottomNavbar />
     </>
